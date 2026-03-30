@@ -2,7 +2,7 @@
 
 #include "PiSubmarine/SignedNormalizedFraction.h"
 
-namespace PiSubmarine
+namespace PiSubmarine::Motor::Unidirectional::Api
 {
     class IDriver
     {
