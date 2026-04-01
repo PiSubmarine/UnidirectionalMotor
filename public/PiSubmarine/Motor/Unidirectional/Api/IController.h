@@ -12,6 +12,7 @@ public:
         [[nodiscard]] virtual bool IsPowered() const = 0;
         [[nodiscard]] virtual NormalizedFraction GetDutyCycle() const = 0;
         virtual void SetDutyCycle(NormalizedFraction dutyCycle) = 0;
+        virtual NormalizedFraction GetMinimumEffectiveDutyCycle() const = 0;
     };
 }
 
